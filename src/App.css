@@ -1,0 +1,44 @@
+/* 🌗 THEME STYLES */
+body.light {
+  background-color: #f8f9fa;
+  color: #222;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f8f9fa;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid #888;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: inherit;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.dark .user-card {
+  background: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.dark .user-card:hover {
+  background: #2c2c2c;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
